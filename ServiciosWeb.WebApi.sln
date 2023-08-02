@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiciosWeb.WebApi", "ServiciosWeb.WebApi.csproj", "{74FEA74F-0361-4F39-8ED2-CCB6D56D43C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiciosWeb.Datos", "..\ServiciosWeb.Datos\ServiciosWeb.Datos.csproj", "{22FF011F-59F9-45CF-90E1-3394675475AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74FEA74F-0361-4F39-8ED2-CCB6D56D43C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74FEA74F-0361-4F39-8ED2-CCB6D56D43C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74FEA74F-0361-4F39-8ED2-CCB6D56D43C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74FEA74F-0361-4F39-8ED2-CCB6D56D43C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22FF011F-59F9-45CF-90E1-3394675475AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FF011F-59F9-45CF-90E1-3394675475AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FF011F-59F9-45CF-90E1-3394675475AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FF011F-59F9-45CF-90E1-3394675475AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B198D5F-5ADA-4A63-890D-83A15A0000A9}
+	EndGlobalSection
+EndGlobal
