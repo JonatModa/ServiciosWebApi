@@ -21,8 +21,8 @@ namespace ServiciosWeb.WebApi.Controllers
         [HttpGet]
         public Registro_Producto Get(int Id_Producto)//viene del serviciosWeb.Datos
         {
-            var listado = BD.Registro_Producto.FirstOrDefault(x => x.Id_Producto == Id_Producto);
-            return listado;
+            var listadoID = BD.Registro_Producto.FirstOrDefault(x => x.Id_Producto == Id_Producto);
+            return listadoID;
         }
     }
 }
